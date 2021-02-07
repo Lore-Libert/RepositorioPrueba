@@ -2,6 +2,7 @@ package Refactorizar;
 import java.util.Scanner;
 
 public class CodigoRefactorizado {
+	//Metodo para cargar los numeros ingresados
 	public static void CargarNumeros(int num[]) {
 		Scanner sc = new Scanner(System.in);
 		for (int i = 0; i < num.length; i++) {
@@ -11,6 +12,7 @@ public class CodigoRefactorizado {
 		sc.close();
 	}
 	
+	//Metodo que muestro por pantalla los numeros ingresados
 	public void MostarNumeros(int num[]) {
 		for (int i = 0; i < num.length; i++) {
 			System.out.println("Numero " + (i + 1) + ":" + num[i]);
@@ -90,8 +92,8 @@ public class CodigoRefactorizado {
 		System.out.println("Mayor numero:" + BuscarMayor(num));
 		System.out.println("Menor numero:" + BuscarMayor(num));
 		System.out.println("Suma total:" + sumaTodos);
-		System.out.println("Suma de los números positivos: " + SumarPositivos(num));
-		System.out.println("Suma de los números negativos: " + SumarNegativos(num));
+		System.out.println("Suma de los nÃºmeros positivos: " + SumarPositivos(num));
+		System.out.println("Suma de los nÃºmeros negativos: " + SumarNegativos(num));
 		System.out.println("La media es: " + Promedio(num));
 		sc.close();
 		}
