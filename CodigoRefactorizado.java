@@ -19,7 +19,7 @@ public class CodigoRefactorizado {
 		}
 	}
 	
-	//Creo un metodo que me devuelva el numero mayor
+	//Creo un metodo que me devuelva el numero m
 	public static int BuscarMayor(int num[]) {
 		int MAYOR;
 		MAYOR = num[0];
