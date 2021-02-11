@@ -59,7 +59,7 @@ public class CodigoRefactorizado {
 			return sumaPositivos;
 	}
 	
-	//Creo un metodo para que sume todos los numeros negativos
+	//Creo un metodo para que sume todos los numeros negativo
 		public static int SumarNegativos(int num[]) {
 			int sumaNegativos = 0;
 			
